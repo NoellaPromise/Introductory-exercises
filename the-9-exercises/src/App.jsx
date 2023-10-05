@@ -1,14 +1,7 @@
-
-import './App.css'
+import GreetingForm from "./components/GreetingForm";
 
 function App() {
-
-
-  return (
-    <>
-      <h1 className='bg-red-400'>hey there</h1>
-    </>
-  )
+  return <GreetingForm />;
 }
 
-export default App
+export default App;
