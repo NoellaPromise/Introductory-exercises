@@ -1,5 +1,4 @@
 import Button1 from "./components/Button1";
-
 const App = () => {
   return (
     <div>
