@@ -1,14 +1,10 @@
+import { v4 as uuidv4 } from "uuid";
+import AnimalList from "./components/AnimalList";
+import data from "./components/data.json";
 
-import './App.css'
-
-function App() {
-
-
-  return (
-    <>
-      <h1 className='bg-red-400'>hey there</h1>
-    </>
-  )
+export default function App() {
+  const ANIMAL = data.map((item) => (
+    <AnimalList id={uuidv4()} name={item.name} image={item.url} />
+  ));
+  return <div>{ANIMAL}</div>;
 }
-
-export default App
