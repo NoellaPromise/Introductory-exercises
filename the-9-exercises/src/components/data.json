@@ -1,0 +1,26 @@
+[
+    {
+        "name":"dog",
+        "url":"https://media.istockphoto.com/id/1153925640/vector/dog-logo.jpg?s=612x612&w=0&k=20&c=pm-U4MwJ6Xfbifxwf29OE7HwcWcsvVZTw2fpmbGYIYk="
+    },
+    {
+        "name":"cat",
+        "url":"https://cdn1.vectorstock.com/i/1000x1000/82/85/cute-red-cat-head-funny-cartoon-animal-character-vector-17478285.jpg"
+    },
+    {
+        "name":"chicken",
+        "url":"https://t3.ftcdn.net/jpg/03/50/96/80/360_F_350968083_Ydp4pdEoUNlDDFcMe7I2N1Ng16pYe6K3.jpg"
+    },
+    {
+        "name":"cow",
+        "url":"https://media.istockphoto.com/id/1256233718/vector/cute-cow-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=i_MCfgGxR-6GvXYV5yZ4jNF_7VwGKxd0TMaEEyo0Mqk="
+    },
+    {
+        "name":"sheep",
+        "url":"https://static.vecteezy.com/system/resources/previews/005/277/522/original/a-cute-animal-head-illustration-in-a-flat-design-a-sheep-head-free-vector.jpg"
+    },
+    {
+        "name":"horse",
+        "url":"https://cdn2.vectorstock.com/i/1000x1000/95/96/cartoon-horse-head-vector-31369596.jpg"
+    }
+]
