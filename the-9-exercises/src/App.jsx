@@ -1,10 +1,8 @@
 import Button from "./components/button";
-
 function App() {
   const handleClick = (id) => {
     alert(`You Just Clicked Button ${id}`);
   };
-
   const createComponents = (n) => {
     const array = [];
     for (let i = 0; i < n; i++) {
