@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 export default function Button({ id, clickHandle }) {
   return (
     <button
