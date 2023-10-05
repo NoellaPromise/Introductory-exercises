@@ -1,14 +1,10 @@
-
-import './App.css'
-
+import Fetch from "./components/Fetch";
 function App() {
-
-
   return (
     <>
-      <h1 className='bg-red-400'>hey there</h1>
+      <Fetch />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
