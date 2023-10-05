@@ -5,9 +5,9 @@ function App() {
 
 
   return (
-    <>
-      <h1 className='bg-red-400'>hey there ti tpjfvskf</h1>
-    </>
+    <div className="bg-orange-300 h-screen w-screen flex justify-center rounded-xl">
+          <h1 className="p-8 text-4xl">Hello, World!</h1>
+      </div>
   )
 }
 
