@@ -1,14 +1,5 @@
-
-import './App.css'
-
+import JokesRender from "./components/JokesRender";
 function App() {
-
-
-  return (
-    <>
-      <h1 className='bg-red-400'>hey there</h1>
-    </>
-  )
+  return <JokesRender />;
 }
-
-export default App
+export default App;
