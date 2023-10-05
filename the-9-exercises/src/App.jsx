@@ -1,5 +1,4 @@
 import GreetingForm from "./components/GreetingForm";
-
 function App() {
   return <GreetingForm />;
 }
