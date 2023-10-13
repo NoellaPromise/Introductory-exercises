@@ -7,5 +7,5 @@ export default function Button({ id, clickHandle }) {
     >
       Button {id}
     </button>
-  );
-}
+    );
+  }
