@@ -1,8 +1,8 @@
-import Button1 from "./components/Button1";
+import Button from "./components/button";
 const App = () => {
   return (
     <div>
-      <Button1 />
+      <Button />
     </div>
   );
 };

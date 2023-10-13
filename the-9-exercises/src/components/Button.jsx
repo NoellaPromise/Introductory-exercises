@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ButtonComponents() {
+export default function Button() {
   const [count, setCount] = useState(0);
   function addCount() {
     return setCount((prevCount) => prevCount + 1);
