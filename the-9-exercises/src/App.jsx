@@ -1,4 +1,4 @@
-import Button from "./components/button";
+import Button from "./Button";
 function App() {
   const handleClick = (id) => {
     alert(`You Just Clicked Button ${id}`);
