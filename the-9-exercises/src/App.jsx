@@ -1,21 +1,21 @@
-import List from "./components/List";
+import ListItems from "./components/ListItems";
 
 function App() {
-  const arrayOfItems = [
-    "dog  ",
-    "cat  ",
-    "chicken  ",
-    "cow  ",
-    "sheep  ",
-    "horse  ",
+  const items = [
+    "dog",
+    "cat",
+    "chicken",
+    "cow",
+    "sheep",
+    "horse",
   ];
-  const arrayOfComponents = arrayOfItems.map((element, index) => (
-    <List key={index} element={element} />
+  const components = items.map((element, index) => (
+    <ListItems key={index} element={element} />
   ));
 
   return (
     <ul className="text-2xl mx-40 my-10 p-10 bg-green-900  text-white rounded-lg list-disc">
-      {arrayOfComponents}
+      {components}
     </ul>
   );
 }
