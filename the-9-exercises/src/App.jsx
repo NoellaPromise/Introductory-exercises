@@ -1,14 +1,10 @@
-
-import './App.css'
-
-function App() {
-
-
+import Button from "./components/button";
+const App = () => {
   return (
-    <>
-      <h1 className='bg-red-400'>hey there</h1>
-    </>
-  )
-}
+    <div>
+      <Button />
+    </div>
+  );
+};
 
-export default App
+export default App;
