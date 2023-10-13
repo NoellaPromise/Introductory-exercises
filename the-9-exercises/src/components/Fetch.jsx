@@ -2,19 +2,19 @@ import { useState, useEffect } from "react";
 import UserDisplayComponent from "./UserDisplayComponent";
 
 export default function Fetch() {
-  const [user, setUser] = useState([]);
+  const [users, setUsers] = useState([]);
   const [random, setRandom] = useState(0);
 
   useEffect(
     function () {
       fetch("https://random-data-api.com/api/users/random_user?size=10")
         .then((res) => res.json())
-        .then((data) => setUser(data));
+        .then((data) => setUsers(data));
     },
     [random]
   );
 
-  const DATA = user.map((item) => (
+  const DATA = users.map((item) => (
     <UserDisplayComponent
       key={item.id}
       firstName={item.first_name}
