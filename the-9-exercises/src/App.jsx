@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./components/Button";
 function App() {
   const handleClick = (id) => {
     alert(`You Just Clicked Button ${id}`);
@@ -10,8 +10,7 @@ function App() {
     }
     return array;
   };
-
-  return (
+return (
     <div className="flex gap-3 mx-5 sm:gap-10 sm:mx-[30%] my-[20%]">
       {createComponents(3)}
     </div>
